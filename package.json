@@ -1,7 +1,6 @@
 {
   "name": "pulse",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +12,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.2.0",
-    "gulp-cli": "^2.2.0",
+    "gulp-cli": "^2.3.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2"
   },
@@ -22,5 +21,14 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsa13/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zsa13/portfolio/issues"
+  },
+  "homepage": "https://github.com/zsa13/portfolio#readme",
+  "description": ""
 }
