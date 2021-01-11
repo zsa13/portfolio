@@ -1,10 +1,61 @@
-@media ( max-width: 991px  ){
+@media ( max-width: 1200px){
+    .container {
+        max-width: 900px;
+    }
+}
+
+
+
+@media ( max-width: 992px){
     .container {
         max-width: 850px;
     }
     .consultation {
         min-height: 600px;
         padding: 50px 0;
+    }
+    .carousel{
+        &__inner img {
+        width: 60%;
+        margin: 0 auto;
+        }
+        .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .slick-dots li {
+        list-style: none;
+        margin: 0 10px;
+        }
+        .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border-radius: 50%;
+        border: none;
+        padding: 0;
+        }
+        .slick-dots li.slick-active button {
+        background-color: $main-color;
+        width: 12px;
+        height: 12px;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+        &-item {
+            img {
+                height: 150px;
+            }
+            hr {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
     }
 }
 
@@ -14,7 +65,7 @@
     }
     .promo {
         &__wrapper {
-            margin-top: 40px;
+            margin-top: 20px;
         }
         &__header {
             margin-top: 15px;
@@ -61,9 +112,33 @@
     .consultation__descr {
         margin-top: 60px;
     }
+    .carousel {
+        padding: 40px 0;
+    }
+    .catalog {
+        padding-bottom: 30px;
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__tab {
+            font-size: 15px;
+        }
+        &__content {
+            margin-top: 40px;
+        }  
+    }
+    .feed {
+        &__item {
+            margin-top: 30px;
+        }
+        &__text {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
 }
 
-@media ( max-width: 575px  ){
+@media ( max-width: 576px  ){
     .container {
         max-width: 500px;
     }
@@ -92,10 +167,13 @@
             margin-top: 40px;
         }  
         &__icons {
-            width: 390px;
+            max-width: 390px;
         }
         &__official {
             display: block;
+        }
+        &__wrapper button {
+            margin-top: 30px;
         }
     }
     .title {
@@ -120,5 +198,28 @@
             margin-top: 15px;
             font-size: 17px;
             }
+    }
+    .feed {
+        padding-bottom: 40px;
+        &__item {
+            flex-direction: column;
+            img {
+                width: 25%;
+            }
+        }
+        &__text {
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 10px;
+        }
+    }
+    .carousel{
+        &__inner img {
+        width: 80%;
+        }
     }
 }
