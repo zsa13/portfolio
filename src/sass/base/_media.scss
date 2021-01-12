@@ -222,4 +222,15 @@
         width: 80%;
         }
     }
+    .overlay .modal {
+        width: 255px;
+    }
+    .footer{
+    &__info {
+        width: 360px;
+    }
+    &__social-item {
+        margin: 0 10px;
+    }
+    }   
 }
