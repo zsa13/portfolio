@@ -2,6 +2,12 @@
     .container {
         max-width: 900px;
     }
+    .promo {
+        background: url(../img/bg_header.jpg) no-repeat 30%/cover;
+    }
+    .consultation {
+        background: url('../img/bg2.jpg') no-repeat 40%/cover;
+    }
 }
 
 
@@ -10,6 +16,7 @@
     .container {
         max-width: 850px;
     }
+
     .consultation {
         min-height: 600px;
         padding: 50px 0;
@@ -64,6 +71,7 @@
         max-width: 720px;
     }
     .promo {
+        
         &__wrapper {
             margin-top: 20px;
         }
@@ -157,6 +165,7 @@
         font-size: 11px;
     }
     .promo {
+        
         &__header {
             font-size: 25px;
         }
